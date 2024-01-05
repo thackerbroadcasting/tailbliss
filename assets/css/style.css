@@ -5595,7 +5595,5 @@ font-family:
 
 :is(:where(.dark) .dark\:focus\:ring-primary-900:focus) {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(10 12 106 / var(--tw-ri}g-opacity));
-}
-}g-opacity));
+  --tw-ring-color: rgb(10 12 106 / var(--tw-ring-opacity));
 }
