@@ -76,16 +76,18 @@ params:
     logos:
       - identifier: a
         #image: "images/global/sample-logo.svg"
-        alt: "a"
       - identifier: b
       - identifier: c
       - identifier: d
       - identifier: e
       - identifier: f
+      - identifier: g
+      - identifier: h
   p4:
     heading: "From the blog"
     content:
       - text: "We sometimes write stuff."
+# p5 is for email newsletter sign ups, which is currently disabled with the `disable_stay_uptodate` field.
   p5:
     heading: "Stay Up to Date"
     content:
@@ -152,15 +154,15 @@ menu:
       weight: 10
     - identifier: blog
       name: Blog
-      url: /categories/blog/
+      url: /posts/
       weight: 20
     - identifier: news
       name: News
       url: /categories/news/
       weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: docs
+      name: Docs
+      url: https://docs.thackerbroadcasting.com
       weight: 40
     - identifier: contact
       name: Contact
@@ -178,25 +180,25 @@ taxonomies:
 
 privacy:
   disqus:
-    disable: false
+    disable: true
   googleAnalytics:
     anonymizeIP: true
-    disable: false
-    respectDoNotTrack: false
+    disable: true
+    respectDoNotTrack: true
     useSessionStorage: false
   instagram:
-    disable: false
+    disable: true
     simple: false
   twitter:
-    disable: false
+    disable: true
     enableDNT: false
     simple: false
   vimeo:
-    disable: false
+    disable: true
     enableDNT: false
     simple: false
   youtube:
-    disable: false
+    disable: true
     privacyEnhanced: true
 
 module:
