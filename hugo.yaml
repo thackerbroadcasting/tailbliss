@@ -47,23 +47,23 @@ markup:
 
 params:
   author: Thacker Broadcasting
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
+  #authorimage: ../assets/images/global/author.webp
+  #og_image: 
   moto: "Broadcasting Beyond"
   description: "Spice up your business with a broadcasting solution that makes you stand out and keeps customers coming back."
   disable_theme_toggle: false
-  disable_stay_uptodate: false
+  disable_stay_uptodate: true
 
   p1:
     heading: "Our mission"
-    image: "images/pages/our-mission.png"
+    #image: "images/pages/our-mission.png"
     content:
       - text: "We as humans have broadcasted for centuries. Absolutely revolutionary. Yet, we still hold on to antiquated technologies and methodologies in the modern world."
       - text: "While not a bad thing, it's time we utilized our new technologies in new ways, adopting new methodologies along the way. That is where we come in."
       - text: "Every step of the way in our broadcasting journey is careful examined to determine if it is the best use of our technologies, or if we can improve it in some way. Broadcasting doesn't have to be old-fashioned, we can reinvent it with new capabilities."
   p2:
     heading: "Just in time for the modern age."
-    image: "images/pages/hacktoberfest.jpg"
+    #image: "images/pages/hacktoberfest.jpg"
     content:
       - text: "Don't think that we're trying to get rid of older means of broadcasting -- that is most certainly not the case. Instead, we're expanding on it. Using new technologies to reach a more modern audience is how we've evolved with technology previously. So instead of reinventing anything, we're improving upon what is already here and available."
   p3:
@@ -75,7 +75,7 @@ params:
         url: "#"
     logos:
       - identifier: a
-        image: "images/global/sample-logo.svg"
+        #image: "images/global/sample-logo.svg"
         alt: "a"
       - identifier: b
       - identifier: c
@@ -117,20 +117,14 @@ menu:
       name: Services
       weight: 10
     - identifier: about
+      pre: complexdropdown
       name: About
       url: /about/
       weight: 20
-    - identifier: categories
-      name: Categories
-      weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 50
+      weight: 30
   services:
     - identifier: business
       name: Business
@@ -142,27 +136,15 @@ menu:
       weight: 20
     - identifier: radio-broadcasting
       name: Radio Broadcasting
-      url: /radio-broadcasting/
+      url: /services/radio-broadcasting/
       weight: 30
-  dropdown:
-    - identifier: appearance
+  about:
+    - identifier: why
       pre: stars # can be stars, comments or piechart
-      name: Appearance
-      post: "Easy customization"
-      url: "#"
+      name: Why Us
+      post: "Why trust us over the others"
+      url: "/about/why/"
       weight: 10
-    - identifier: comments
-      pre: comments # can be stars, comments or piechart
-      name: Comments
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      pre: piechart # can be stars, comments or piechart
-      name: Analytics
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
   footer:
     - identifier: about
       name: About

@@ -15,7 +15,7 @@
                     </p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}
+                    {{ $hero := resources.GetMatch "images/pages/header.jpg" }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
                     {{ $large := ($hero.Fill "576x576 webp q90") }}
@@ -218,7 +218,7 @@
                                         </p>
                                         <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
                                             <time datetime="2020-02-12">{{.Date.Format "2006-01-02"}}</time>
-                                            <span aria-hidden="true">&middot;</span>
+                                            <span aria-hidden="true">&bull;</span>
                                             <span>{{ math.Round (div (countwords .Content) 220.0) }}
                                                 min read</span>
                                         </div>
