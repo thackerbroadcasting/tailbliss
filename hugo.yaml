@@ -113,6 +113,7 @@ params:
 menu:
   main:
     - identifier: services
+      pre: dropdown
       name: Services
       weight: 10
     - identifier: about
@@ -120,7 +121,6 @@ menu:
       url: /about/
       weight: 20
     - identifier: categories
-      pre: dropdown
       name: Categories
       weight: 30
     - identifier: dropdown
@@ -131,15 +131,19 @@ menu:
       name: Contact
       url: /contact/
       weight: 50
-  categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+  services:
+    - identifier: business
+      name: Business
+      url: /business/
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: podcasting
+      name: Podcasting
+      url: /podcasting/
       weight: 20
+    - identifier: radio-broadcasting
+      name: Radio Broadcasting
+      url: /radio-broadcasting/
+      weight: 30
   dropdown:
     - identifier: appearance
       pre: stars # can be stars, comments or piechart
