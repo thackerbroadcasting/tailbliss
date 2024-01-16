@@ -141,12 +141,18 @@ menu:
       url: /services/radio-broadcasting/
       weight: 30
   about:
+    - identifier: about
+      pre: comments
+      name: About Us
+      post: "Learn more about us"
+      url: "/about/"
+      weight: 10
     - identifier: why
       pre: stars # can be stars, comments or piechart
       name: Why Us
       post: "Why trust us over the others"
       url: "/about/why/"
-      weight: 10
+      weight: 20
   footer:
     - identifier: about
       name: About
