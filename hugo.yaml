@@ -72,17 +72,18 @@ params:
       - text: "What good is this new technology if you can't use it? Our fresh approach to the world of IT allows us to use already-existing infrastructure to better serve you, the customer, and keep us online even when everyone else isn't."
     links:
       - text: Learn more about how we do it
-        url: "#"
+        url: "/infrastructure"
     logos:
       - identifier: a
-        #image: "images/global/sample-logo.svg"
+        image: "images/global/digitalocean-logo.png"
       - identifier: b
+        image: "images/global/azure-logo.png"
       - identifier: c
+        image: "images/global/docker-logo.png"
       - identifier: d
-      - identifier: e
-      - identifier: f
-      - identifier: g
-      - identifier: h
+        image: "images/global/captivate-logo.png"
+      #- identifier: e
+
   p4:
     heading: "From the blog"
     content:
